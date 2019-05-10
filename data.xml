@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<tabs>
+	<main>
+		<tab>
+			<id>1</id>
+			<title>About</title>
+			<subtitle>About me</subtitle>
+			<class>blue-info</class>
+			<link>#!about</link>
+		</tab>
+		<tab>
+			<id>2</id>
+			<title>Games</title>
+			<subtitle>Portfolio</subtitle>
+			<class>turquoise-camera</class>
+			<link>/games.html#!Main</link>
+		</tab>
+		<tab>
+			<id>3</id>
+			<title>Software</title>
+			<subtitle>Portfolio</subtitle>
+			<class>purple-camera</class>
+			<link>/software.html#!Main</link>
+		</tab>
+		<tab>
+			<id>4</id>
+			<title>Resume/CV</title>
+			<subtitle>Personal Profile</subtitle>
+			<class>yellow-document</class>
+			<link>#!resume</link>
+		</tab>
+		<tab>
+			<id>5</id>
+			<title>My Interests</title>
+			<subtitle>Free time</subtitle>
+			<class>green-people</class>
+			<link>#!interests</link>
+		</tab>
+		<tab>
+			<id>6</id>
+			<title>Contact me</title>
+			<subtitle>Get in Touch</subtitle>
+			<class>red-mail</class>
+			<link>#!contacts</link>
+		</tab>
+	</main>
+	<software>
+		<tab>
+			<id>1</id>
+			<title>Home</title>
+			<subtitle></subtitle>
+			<class>purple-info</class>
+			<link>/index.html#!Main</link>
+		</tab>
+		<tab>
+			<id>2</id>
+			<title>CKPL Launcher</title>
+			<subtitle></subtitle>
+			<class>turquoise-arrow</class>
+			<link>#!ckpllauncher</link>
+		</tab>
+	</software>
+	<games>
+		<tab>
+			<id>1</id>
+			<title>Home</title>
+			<subtitle></subtitle>
+			<class>purple-info</class>
+			<link>/index.html#!Main</link>
+		</tab>
+		<tab>
+			<id>2</id>
+			<title>Fallen City</title>
+			<subtitle></subtitle>
+			<class>yellow-arrow</class>
+			<link>#!fallencity</link>
+		</tab>
+		<tab>
+			<id>3</id>
+			<title>Beyond Reach</title>
+			<subtitle></subtitle>
+			<class>blue-arrow</class>
+			<link>#!beyondreach</link>
+		</tab>
+		<tab>
+			<id>4</id>
+			<title>MFPS</title>
+			<subtitle></subtitle>
+			<class>red-arrow</class>
+			<link>#!mfps</link>
+		</tab>
+		<tab>
+			<id>5</id>
+			<title>Tower Defense</title>
+			<subtitle></subtitle>
+			<class>turquoise-arrow</class>
+			<link>#!towerdefense</link>
+		</tab>
+	</games>
+	<about>
+		<id>1</id>
+		<node>
+			<Type>h3</Type>
+			<Data>About Me</Data>
+		</node>
+		<node>
+			<Type>a href="https://www.facebook.com/chandlerpl1"</Type>
+			<subnode>
+				<Type>p</Type>
+				<Data><![CDATA[Facebook <br />]]></Data>
+			</subnode>
+		</node>
+		<node>
+			<Type>a href="twitter.com/chandlerpl"</Type>
+			<subnode>
+				<Type>p</Type>
+				<Data><![CDATA[Twitter <br />]]></Data>
+			</subnode>
+		</node>
+		<node>
+			<Type>a href="https://www.youtube.com/channel/UC4HTaoWKES-8-szHxPInBZQ"</Type>
+			<subnode>
+				<Type>p</Type>
+				<Data><![CDATA[YouTube <br />]]></Data>
+			</subnode>
+		</node>
+		<node>
+			<Type>p</Type>
+			<Data>
+				<![CDATA[
+				I am a Software, Web and Game Programmer with eleven years experience 
+				programming in multiple languages. I have worked as a freelance programmer 
+				since 2012 and started programming when I was 8 years old, starting out
+				by programming in Python and Lua then later for websites and Java. 
+				<br />    
+				<br />  
+				By 2012 I knew 6 languages and wanted to learn more and use my knowledge,
+				I began learning the Unity API and C# and using external microprocessors
+				and microcontrollers in a physical hardware/software environment. That 
+				was when I decided that there were two industries that I was interested in,
+				games and software programming and Robotics.
+				<br />    
+				<br />  
+				I value doing the right thing - working to the benefit 
+				of my client first, going the extra mile to get the 
+				job done without ever compromising quality.
+				<br />    
+				<br />  
+				Feel free to contact me if you wish to discuss any of my projects, 
+				interests or if you are looking for help on a project of your own.
+				]]>
+			</Data>
+		</node>
+	</about>
+	<games-beyondreach>
+		<id>1</id>
+		<node>
+			<Type>h3 class="icon-robotics link-icons"</Type>
+			<Data>
+				<![CDATA[
+					Information
+				]]>
+			</Data>
+		</node>
+		<node>
+			<Type>a class="icon-source link-icons" href="https://github.com/chandlerpl/BeyondReach"</Type>
+			<subnode>
+				<Type>p</Type>
+				<Data>
+				<![CDATA[
+					<br /> Source Code <br /> <br />
+				]]>
+				</Data>
+			</subnode>
+		</node>
+		<node>
+			<Type>a class="icon-play link-icons" href="/Games/BeyondReach/BeyondReach.html"</Type>
+			<subnode>
+				<Type>p</Type>
+				<Data>Play</Data>
+			</subnode>
+		</node>
+	</games-beyondreach>
+	<games-towerdefense>
+		<id>1</id>
+		<node>
+			<Type>h3 class="icon-robotics link-icons"</Type>
+			<Data>
+				<![CDATA[
+					Information
+				]]>
+			</Data>
+		</node>
+		<node>
+			<Type>a class="icon-source link-icons" href="https://github.com/chandlerpl/TowerDefense"</Type>
+			<subnode>
+				<Type>p</Type>
+				<Data>
+				<![CDATA[
+					<br /> Source Code <br /> <br />
+				]]>
+				</Data>
+			</subnode>
+		</node>
+		<node>
+			<Type>a class="icon-file link-icons" href="/Games/TowerDefense/Download/TowerDefense.zip"</Type>
+			<subnode>
+				<Type>p</Type>
+				<Data>Download</Data>
+			</subnode>
+		</node>
+	</games-towerdefense>
+	</tabs>

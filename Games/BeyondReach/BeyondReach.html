@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Beyond Reach - Chandler Pope-Lewis</title>
+    <link rel="shortcut icon" href="/image/favicon.ico">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/base.css"/> 
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300"/>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Share" />
+    <script src="BeyondReach/UnityProgress.js"></script>  
+    <script src="BeyondReach/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "BeyondReach/BeyondReachWeb.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+      <body class="background-carbon">
+		<div class="header-wrapper">
+			
+			<div class="header main box-center clear-fix">
+
+				<div class="layout-4060 clear-fix">
+
+					<div class="layout-4060-left">	
+						<h1><a href="#!main">Chandler Pope-Lewis</a> </h1>
+						<h5><a href="#!main">Software developer, engineer &amp; game programmer</a></h5>	
+					</div>
+
+					<div class="layout-4060-right">
+						<ul class="no-list header-menu clear-fix">
+							<!-- <li class="header-menu-download"><a href="#">Download my vCard</a></li> -->
+							<li class="header-menu-phone">07802533123</li>
+							<li class="header-menu-mail"><a href="#">c.popelewis@gmail.com</a></li>
+						</ul>
+					</div>			
+
+				</div>
+
+			</div>
+			
+		                <!-- Window -->
+                <div class="cascade-window">
+
+                    <!-- Close bar -->
+                    <div class="cascade-window-close-bar">
+                        <a href="#!main"></a>
+                    </div>
+                    <!-- /Close bar -->
+
+                    <!-- Page content -->
+                    <div class="cascade-window-content">
+						<div class="cascade-page clear-fix"></div>
+					</div>
+                    <!-- /Page content -->
+
+                    <!-- Footer -->
+                    <div class="cascade-window-footer"></div>
+                    <!-- /Footer -->
+
+                </div>
+                <!-- /Window -->
+		</div>
+  	
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Beyond Reach</div>
+      </div>
+    </div>
+	
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+"TOTAL_MEMORY": 536870912,
+"dataUrl": "BeyondReachWeb.data.unityweb",
+"asmCodeUrl": "BeyondReachWeb.asm.code.unityweb",
+"asmMemoryUrl": "BeyondReachWeb.asm.memory.unityweb",
+"asmFrameworkUrl": "BeyondReachWeb.asm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
